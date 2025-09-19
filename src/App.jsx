@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const App = () => {
     const [pin, setPin] = useState('');
     const [message, setMessage] = useState('');
-    const correctPin = '1234'; // Change this to your desired pin
+    const correctPin = '100546240201'; // Change this to your desired pin
 
     const handlePinChange = (event) => {
         setPin(event.target.value);
